@@ -40,7 +40,7 @@ return {
                 ["yamlls"] = function ()
                     local lspconfig = require("lspconfig")
                     lspconfig.yamlls.setup {
-                        capabilities = capabilities
+                        capabilities = capabilities,
                     }
                 end,
                 ["svelte"] = function ()
